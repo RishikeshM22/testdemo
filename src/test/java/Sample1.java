@@ -4,8 +4,10 @@ public class Sample1 {
 
     @BeforeTest
     public void p1()
+
     {
         System.out.println("login to application");
+        System.out.println("Sample");
     }
 
     @AfterTest
